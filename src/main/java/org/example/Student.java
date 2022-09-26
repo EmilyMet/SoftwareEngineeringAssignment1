@@ -28,7 +28,15 @@ public class Student {
         modules.add(moduleName);
     }
 
+    public ArrayList getModules(){
+        return modules;
+    }
+
     public void addCourses(String courseName){
         courses.add(courseName);
+    }
+
+    public ArrayList getCourses(){
+        return courses;
     }
 }

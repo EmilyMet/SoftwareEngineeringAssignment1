@@ -17,7 +17,16 @@ public class Module {
         students.add(student);
     }
 
+    public ArrayList getStudents(){
+        return students;
+    }
+
+
     public void addCourse(String course){
-        students.add(course);
+        courses.add(course);
+    }
+
+    public ArrayList getCourses(){
+        return courses;
     }
 }

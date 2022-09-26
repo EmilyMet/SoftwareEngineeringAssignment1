@@ -26,4 +26,8 @@ public class Lecturer {
     public void addModule(String moduleName){
         modules.add(moduleName);
     }
+
+    public ArrayList getModules(){
+        return modules;
+    }
 }
