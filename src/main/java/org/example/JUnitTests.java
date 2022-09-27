@@ -7,6 +7,10 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.util.ArrayList;
 
+/**
+ * This class contains JUnit tests for the methods in the Student,
+ * Lecturer, Module and CourseProgramme classes.
+ */
 public class JUnitTests {
 
     //JUnit test for the getUsername method in the student class
