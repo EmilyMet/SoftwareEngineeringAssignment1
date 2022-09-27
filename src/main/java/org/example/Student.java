@@ -19,16 +19,29 @@ public class Student {
         age = Period.between(DOB, currentDate).getYears();
     }
 
+    //Method to create the student's username from their name and age
     public String getUsername(){
         username = name + age;
         return username;
     }
 
+    //Method to add a module to the student's module list
     public void addModule(String moduleName){
         modules.add(moduleName);
     }
 
+    //Method to get the student's module list
+    public ArrayList getModules(){
+        return modules;
+    }
+
+    //Method to add a course to the student's course list
     public void addCourses(String courseName){
         courses.add(courseName);
+    }
+
+    //Method to get the student's course list
+    public ArrayList getCourses(){
+        return courses;
     }
 }

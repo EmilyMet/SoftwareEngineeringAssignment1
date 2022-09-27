@@ -18,12 +18,19 @@ public class Lecturer {
         age = Period.between(DOB, currentDate).getYears();
     }
 
+    //Method to create the lecturer's username from their name and age
     public String getUsername(){
         username = name + age;
         return username;
     }
 
+    //Method to add a module to the lecturer's module list
     public void addModule(String moduleName){
         modules.add(moduleName);
+    }
+
+    //Method to get the lecturer's module list
+    public ArrayList getModules(){
+        return modules;
     }
 }

@@ -13,11 +13,23 @@ public class Module {
         this.lecturer = lecturer;
     }
 
+    //Method to add a student to the module's student list
     public void addStudent(String student){
         students.add(student);
     }
 
+    //Method to get the module's student list
+    public ArrayList getStudents(){
+        return students;
+    }
+
+    //Method to add a course to the module's course list
     public void addCourse(String course){
-        students.add(course);
+        courses.add(course);
+    }
+
+    //Method to get the module's course list
+    public ArrayList getCourses(){
+        return courses;
     }
 }
