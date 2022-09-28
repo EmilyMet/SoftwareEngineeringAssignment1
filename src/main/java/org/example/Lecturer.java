@@ -8,7 +8,7 @@ public class Lecturer {
     private String name, username;
     private LocalDate DOB, currentDate;
     private int age, ID;
-    private ArrayList<String> modules = new ArrayList<String>();
+    private ArrayList<Module> modules = new ArrayList<Module>();
 
     public Lecturer(String name, LocalDate DOB, int ID){
         this.name = name;
@@ -20,13 +20,14 @@ public class Lecturer {
 
     //Method to create the lecturer's username from their name and age
     public String getUsername(){
-        username = name + age;
+        String nameNoSPace = name.replaceAll(" ", "");
+        username = nameNoSPace + age;
         return username;
     }
 
     //Method to add a module to the lecturer's module list
-    public void addModule(String moduleName){
-        modules.add(moduleName);
+    public void addModule(Module m){
+        modules.add(m);
     }
 
     //Method to get the lecturer's module list
