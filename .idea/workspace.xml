@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cde9214-d1b6-4f34-8b1b-4451de51bfb8" name="Changes" comment="Add additional comments to classes">
+    <list default="true" id="5cde9214-d1b6-4f34-8b1b-4451de51bfb8" name="Changes" comment="Change ArrayList from type string to class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CourseProgramme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CourseProgramme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JUnitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lecturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Lecturer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Module.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/emily/OneDrive/Documents/college/year 4/Software Engineering 3/SoftwareEngineeringAssignment1PartB&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/emily/OneDrive/Documents/college/year 4/Software Engineering 3/SoftwareEngineeringAssignment1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -154,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664272294868</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Change ArrayList from type string to class">
+      <created>1664355755050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664355755050</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +176,8 @@
     <MESSAGE value="Add initial JUnit tests" />
     <MESSAGE value="Add more JUnit tests" />
     <MESSAGE value="Add additional comments to classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add additional comments to classes" />
+    <MESSAGE value="Change ArrayList from type string to class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change ArrayList from type string to class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SoftwareEngineeringAssignment1$Main.ic" NAME="Main Coverage Results" MODIFIED="1664269999345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
