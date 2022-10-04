@@ -17,7 +17,7 @@ public class JUnitTests {
     @Test
     public void testStudentGetUsernameSuccessful(){
         Student student1 = new Student("John Doe", LocalDate.of(2000, Month.FEBRUARY, 18), 20347683);
-        assertEquals("Student's username is JohnDoe", "Student's username is "+student1.getUsername());
+        assertEquals("Student's username is JohnDoe22", "Student's username is "+student1.getUsername());
     }
 
     //JUnit test for the addModule and getModule methods in the student class
